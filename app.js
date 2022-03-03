@@ -5,6 +5,6 @@ axios.get('https://api.mapbox.com/geocoding/v5/mapbox.places/ulaanbaatar.json?ac
     // features = response.data.features;
     // console.log(features);
 
-    console.log(typeof response.data.features.text);
+    console.log(response.data.features.id);
 
 })
